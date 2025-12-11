@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  font-family:
+    'Inter',
+    'Helvetica Neue',
+    system-ui,
+    -apple-system,
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --bg: #0f1a14;
+  --surface: #f6f2e8;
+  --surface-muted: #e6dfcf;
+  --text-primary: #182421;
+  --text-secondary: #304038;
+  --accent-green: #1f6f4a;
+  --accent-red: #b23b3b;
+  --accent-gold: #d9a441;
+  --border-subtle: #d8d6ce;
+  --shadow-soft: 0 8px 24px rgba(0, 0, 0, 0.08);
+
+  /* Wordle-status colors (keep familiarity) */
+  --tile-correct: #6aaa64;
+  --tile-present: #c9b458;
+  --tile-absent: #787c7e;
+  --tile-border: #d3d6da;
+  --key-bg: #d3d6da;
+  --key-text: #111827;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(217, 164, 65, 0.08), transparent 35%),
+    radial-gradient(circle at 80% 10%, rgba(178, 59, 59, 0.08), transparent 30%), var(--bg);
+  color: var(--text-primary);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}

@@ -1,0 +1,10 @@
+# General Behavior
+
+- Do not be prescriptive with implementation details unless explicitly asked. Focus on the desired user-facing outcome or visual behavior.
+- If the user says "fix X", analyze the root cause rather than applying a superficial patch.
+
+# Code Quality Standards
+
+1. **Simplicity:** prioritize standard library patterns and existing project conventions over custom logic.
+2. **Readability:** Code must be self-documenting. Use descriptive naming. Avoid complex one-liners.
+3. **Modularity:** - Files should be short and focused.
